@@ -10,11 +10,15 @@ mongoose.set('useFindAndModify', false);
 mongoose.set('useUnifiedTopology', true);
 mongoose.Promise = global.Promise;
 
-// employeee já é um schema!!! alterado nome do BD para fulltime!
-//mongoose.connect('mongodb://mongo/employee',{ useNewUrlParser: true })
+//connect to MongoDB local
+//mongoose.connect('mongodb://localhost/fulltime',{ useNewUrlParser: true })
+//  .then(() =>  console.log('MongoDB conectado'))
+//  .catch((err) => console.error(err));
+
+//connect to MongoDB docker
 mongoose.connect('mongodb://mongo/fulltime',{ useNewUrlParser: true })
-  .then(() =>  console.log('MongoDB conectado'))
-  .catch((err) => console.error(err));
+.then(() =>  console.log('MongoDB conectado'))
+.catch((err) => console.error(err));
 
 var index = require('./routes/index');
 var users = require('./routes/users');
