@@ -7,9 +7,6 @@ This source code is part of [Node.js, Express.js, Mongoose and MongoDB CRUD Tuto
 
 ![](https://github.com/felipe19rodrigues64/NodeExpressCRUD/upload/master/sample_docker_workflow_diagram.png "Diagrama de Fluxo de Trabalho Docker")
 
-
-
-
 #### simply clone repo and run docker-compose command
 
 ```
