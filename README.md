@@ -6,7 +6,7 @@ This source code is part of [Node.js, Express.js, Mongoose and MongoDB CRUD Tuto
 ## sample docker workflow with Node.js,MongoDB and NGiNX
 
 #![](https://github.com/atahani/docker-workflow-sample/raw/master/sample_docker_workflow_diagram.png "Docker workflow diagram")
-![](https://github.com/felipe19rodrigues64/NodeExpressCRUD/upload/raw/master/sample_docker_workflow_diagram.png "Diagrama de Fluxo de Trabalho Docker")
+![](https://github.com/felipe19rodrigues64/NodeExpressCRUD/raw/master/sample_docker_workflow_diagram.png "Diagrama de Fluxo de Trabalho Docker")
 
 
 #### simply clone repo and run docker-compose command
